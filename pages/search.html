@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--font awesome cdn link-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+   <!--link de arquivo css personalizado-->
+   <link rel="stylesheet" href="../css/style.css">
+   <title>página de pesquisa</title>
+</head>
+
+<body>
+   <!--seção de cabeçalho começa-->
+   <header class="header">
+      <section class="flex">
+         <a href="../index.html" class="logo">yum-yum 😋</a>
+         <nav class="navbar">
+            <a href="../index.html">home</a>
+            <a href="about.html">sobre</a>
+            <a href="menu.html">menu</a>
+            <a href="orders.html">pedidos</a>
+            <a href="contact.html">contato</a>
+         </nav>
+         <div class="icons">
+            <a href="search.html">
+               <i class="fas fa-search"></i>
+            </a>
+            <a href="cart.html">
+               <i class="fas fa-shopping-cart"></i>
+               <span>(3)</span>
+            </a>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+         </div>
+         <div class="profile">
+            <p class="name">Hugo Aparecido</p>
+            <div class="flex">
+               <a href="profile.html" class="btn">perfil</a>
+               <a href="#" class="delete-btn">sair</a>
+            </div>
+            <p class="account">
+               <a href="login.html">acessar</a> ou <a href="register.html">registrar</a>
+            </p>
+         </div>
+      </section>
+   </header>
+   <!--seção de cabeçalho termina-->
+   <!--seção formulário de pesquisa começa-->
+   <section class="search-form">
+      <form method="post" action="">
+         <input type="text" name="search_box" placeholder="pesquisar aqui..." class="box">
+         <button type="submit" name="search_btn" class="fas fa-search"></button>
+      </form>
+   </section>
+   <!--seção formulário de pesquisa termina-->
+   <section class="products" style="min-height: 100vh; padding-top: 0;"></section>
+   <!--seção de rodapé começa-->
+   <footer class="footer">
+      <section class="grid">
+         <div class="box">
+            <img src="../img/email-icon.png" alt="">
+            <h3>nosso email</h3>
+            <a href="mailto:hugoapga626@gmail.com">hugoapga626@gmail.com</a>
+            <a href="mailto:hlmhugo@hotmail.com">hlmhugo@hotmail.com</a>
+         </div>
+         <div class="box">
+            <img src="../img/clock-icon.png" alt="">
+            <h3>horário de funcionamento</h3>
+            <p>das 7:00 às 22:00</p>
+         </div>
+         <div class="box">
+            <img src="../img/map-icon.png" alt="">
+            <h3>nosso endereço</h3>
+            <a href="#">São Paulo, Brasil - 16230-000</a>
+         </div>
+         <div class="box">
+            <img src="../img/phone-icon.png" alt="">
+            <h3>nosso número</h3>
+            <a href="tel:1234567890">123-456-7890</a>
+            <a href="tel:1112223333">111-222-3333</a>
+         </div>
+      </section>
+      <div class="credit">criado pelo <span>sr. web designer</span> | todos os direitos reservados!</div>
+   </footer>
+   <!--seção de rodapé termina-->
+   <div class="loader">
+      <img src="../img/loader.gif" alt="">
+   </div>
+   <!--link de arquivo js personalizado-->
+   <script src="../js/script.js"></script>
+</body>
+
+</html>

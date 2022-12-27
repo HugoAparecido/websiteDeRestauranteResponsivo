@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--font awesome cdn link-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+   <!--link de arquivo css personalizado-->
+   <link rel="stylesheet" href="../css/style.css">
+   <title>menu</title>
+</head>
+
+<body>
+   <!--seção de cabeçalho começa-->
+   <header class="header">
+      <section class="flex">
+         <a href="../index.html" class="logo">yum-yum 😋</a>
+         <nav class="navbar">
+            <a href="../index.html">home</a>
+            <a href="about.html">sobre</a>
+            <a href="menu.html">menu</a>
+            <a href="orders.html">pedidos</a>
+            <a href="contact.html">contato</a>
+         </nav>
+         <div class="icons">
+            <a href="search.html">
+               <i class="fas fa-search"></i>
+            </a>
+            <a href="cart.html">
+               <i class="fas fa-shopping-cart"></i>
+               <span>(3)</span>
+            </a>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+         </div>
+         <div class="profile">
+            <p class="name">Hugo Aparecido</p>
+            <div class="flex">
+               <a href="profile.html" class="btn">perfil</a>
+               <a href="#" class="delete-btn">sair</a>
+            </div>
+            <p class="account">
+               <a href="login.html">acessar</a> ou <a href="register.html">registrar</a>
+            </p>
+         </div>
+      </section>
+   </header>
+   <!--seção de cabeçalho termina-->
+   <div class="heading">
+      <h3>nosso cardápio</h3>
+      <p><a href="../index.html">home</a><span> / cardápio</span></p>
+   </div>
+   <!--seção cardápio começa-->
+   <section class="products">
+      <h1 class="title">últimos pratos</h1>
+      <div class="box-container">
+         <form action="" method="post" class="box">
+            <button type="submit" class="fas fa-eye" name="quick_view"></button>
+            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+            <img src="../uploaded_img/burger-1.png" alt="">
+            <a href="#" class="cat">fast food</a>
+            <div class="name">chezzy burger 01</div>
+            <div class="flex">
+               <div class="price"><span>R$</span>3,00</div>
+               <input type="number" name="qty" class="qty" min="1" max="99" value="1"
+                  onkeypress="if(this.value.length == 2)return false;">
+            </div>
+         </form>
+         <form action="" method="post" class="box">
+            <button type="submit" class="fas fa-eye" name="quick_view"></button>
+            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+            <img src="../uploaded_img/dish-1.png" alt="">
+            <a href="#" class="cat">pratos</a>
+            <div class="name">prato principal 01</div>
+            <div class="flex">
+               <div class="price"><span>R$</span>3,00</div>
+               <input type="number" name="qty" class="qty" min="1" max="99" value="1"
+                  onkeypress="if(this.value.length == 2)return false;">
+            </div>
+         </form>
+         <form action="" method="post" class="box">
+            <button type="submit" class="fas fa-eye" name="quick_view"></button>
+            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+            <img src="../uploaded_img/dessert-1.png" alt="">
+            <a href="#" class="cat">sobremesas</a>
+            <div class="name">sobremesa deliciosa 01</div>
+            <div class="flex">
+               <div class="price"><span>R$</span>3,00</div>
+               <input type="number" name="qty" class="qty" min="1" max="99" value="1"
+                  onkeypress="if(this.value.length == 2)return false;">
+            </div>
+         </form>
+         <form action="" method="post" class="box">
+            <button type="submit" class="fas fa-eye" name="quick_view"></button>
+            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+            <img src="../uploaded_img/drink-1.png" alt="">
+            <a href="#" class="cat">bebidas</a>
+            <div class="name">bebida gelada 01</div>
+            <div class="flex">
+               <div class="price"><span>R$</span>3,00</div>
+               <input type="number" name="qty" class="qty" min="1" max="99" value="1"
+                  onkeypress="if(this.value.length == 2)return false;">
+            </div>
+         </form>
+         <form action="" method="post" class="box">
+            <button type="submit" class="fas fa-eye" name="quick_view"></button>
+            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+            <img src="../uploaded_img/pizza-1.png" alt="">
+            <a href="#" class="cat">fast food</a>
+            <div class="name">pizza deliciosa 01</div>
+            <div class="flex">
+               <div class="price"><span>R$</span>3,00</div>
+               <input type="number" name="qty" class="qty" min="1" max="99" value="1"
+                  onkeypress="if(this.value.length == 2)return false;">
+            </div>
+         </form>
+         <form action="" method="post" class="box">
+            <button type="submit" class="fas fa-eye" name="quick_view"></button>
+            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+            <img src="../uploaded_img/dish-2.png" alt="">
+            <a href="#" class="cat">pratos</a>
+            <div class="name">prato principal 02</div>
+            <div class="flex">
+               <div class="price"><span>R$</span>3,00</div>
+               <input type="number" name="qty" class="qty" min="1" max="99" value="1"
+                  onkeypress="if(this.value.length == 2)return false;">
+            </div>
+         </form>
+         <form action="" method="post" class="box">
+            <button type="submit" class="fas fa-eye" name="quick_view"></button>
+            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+            <img src="../uploaded_img/pizza-2.png" alt="">
+            <a href="#" class="cat">fast food</a>
+            <div class="name">pizza deliciosa 02</div>
+            <div class="flex">
+               <div class="price"><span>R$</span>3,00</div>
+               <input type="number" name="qty" class="qty" min="1" max="99" value="1"
+                  onkeypress="if(this.value.length == 2)return false;">
+            </div>
+         </form>
+         <form action="" method="post" class="box">
+            <button type="submit" class="fas fa-eye" name="quick_view"></button>
+            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+            <img src="../uploaded_img/dessert-2.png" alt="">
+            <a href="#" class="cat">sobremesas</a>
+            <div class="name">sobremesa deliciosa 02</div>
+            <div class="flex">
+               <div class="price"><span>R$</span>3,00</div>
+               <input type="number" name="qty" class="qty" min="1" max="99" value="1"
+                  onkeypress="if(this.value.length == 2)return false;">
+            </div>
+         </form>
+         <form action="" method="post" class="box">
+            <button type="submit" class="fas fa-eye" name="quick_view"></button>
+            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+            <img src="../uploaded_img/drink-2.png" alt="">
+            <a href="#" class="cat">bebidas</a>
+            <div class="name">bebida gelada 02</div>
+            <div class="flex">
+               <div class="price"><span>R$</span>3,00</div>
+               <input type="number" name="qty" class="qty" min="1" max="99" value="1"
+                  onkeypress="if(this.value.length == 2)return false;">
+            </div>
+         </form>
+      </div>
+   </section>
+   <!--seção cardápio termina-->
+   <!--seção de rodapé começa-->
+   <footer class="footer">
+      <section class="grid">
+         <div class="box">
+            <img src="../img/email-icon.png" alt="">
+            <h3>nosso email</h3>
+            <a href="mailto:hugoapga626@gmail.com">hugoapga626@gmail.com</a>
+            <a href="mailto:hlmhugo@hotmail.com">hlmhugo@hotmail.com</a>
+         </div>
+         <div class="box">
+            <img src="../img/clock-icon.png" alt="">
+            <h3>horário de funcionamento</h3>
+            <p>das 7:00 às 22:00</p>
+         </div>
+         <div class="box">
+            <img src="../img/map-icon.png" alt="">
+            <h3>nosso endereço</h3>
+            <a href="#">São Paulo, Brasil - 16230-000</a>
+         </div>
+         <div class="box">
+            <img src="../img/phone-icon.png" alt="">
+            <h3>nosso número</h3>
+            <a href="tel:1234567890">123-456-7890</a>
+            <a href="tel:1112223333">111-222-3333</a>
+         </div>
+      </section>
+      <div class="credit">criado pelo <span>sr. web designer</span> | todos os direitos reservados!</div>
+   </footer>
+   <!--seção de rodapé termina-->
+   <div class="loader">
+      <img src="../img/loader.gif" alt="">
+   </div>
+   <!--link de arquivo js personalizado-->
+   <script src="../js/script.js"></script>
+</body>
+
+</html>
